@@ -5,6 +5,7 @@ import { Album } from './album';
 
 import 'rxjs/add/operator/map';
 import { Observable } from 'rxjs/Observable';
+import { Track } from './track';
 
 @Injectable()
 export class ProductService {
